@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>GoIT-WIN10</name>
+  <description></description>
+  <remoteFS>d:\Projects\EPAM_Junior_Test_Automation_Engineer_in_Java\jenkins-node\</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>EXCLUSIVE</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.slaves.JNLPLauncher">
+    <workDirSettings>
+      <disabled>false</disabled>
+      <internalDir>remoting</internalDir>
+      <failIfWorkDirIsMissing>false</failIfWorkDirIsMissing>
+    </workDirSettings>
+    <webSocket>false</webSocket>
+  </launcher>
+  <label>Win10 x64</label>
+  <nodeProperties/>
+</slave>
